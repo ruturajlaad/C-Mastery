@@ -1,0 +1,17 @@
+# Primitive Types
+
+* Arithmetic & void
+* Arithmetic -> Integral & floating point
+* Integral types -> *bool, char, wchar_t, char16_t, char32_t, short, int, long*
+* Floating point -> *float & double*
+* void is a special type used with pointers & functions
+
+### Variable Declaration
+
+* A variable is declared by specifying a type followed by a variable name e.g. **int i** or **float x**
+* The variable is also called **identifier**
+* Multiple variables can be declared with the same type e.g. **int a, b, c**
+* May or may not be initialized with an initializer
+* Better to initialize variables during declaration to avoid bugs
+* Some compilers don’t allow read operation from an uninitialized variable
+
